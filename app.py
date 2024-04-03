@@ -3,6 +3,7 @@ import string
 import pickle
 import requests
 import numpy as np
+import sklearn
 
 st.title("Phishing website classifier")
 url = st.text_input("Paste the url here")
